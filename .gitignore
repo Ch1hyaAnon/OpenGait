@@ -8,7 +8,7 @@ __pycache__/
 
 # checkpoint
 *.pt
-
+*.pth
 # summary
 events.out.tfevents.*
 # cache
