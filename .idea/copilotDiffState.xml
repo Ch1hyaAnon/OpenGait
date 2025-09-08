@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/script/video_split.ipynb">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/script/video_split.ipynb" />
+              <option name="originalContent" value="#%%&#10;import cv2&#10;import os&#10;&#10;video_path = '../sample/video/sample.avi'&#10;output_dir = '../sample/fig'&#10;&#10;if not os.path.exists(output_dir):&#10;    os.makedirs(output_dir)&#10;&#10;cap = cv2.VideoCapture(video_path)&#10;frame_idx = 0&#10;while cap.isOpened():&#10;    ret, frame = cap.read()&#10;    if not ret:&#10;        break&#10;    frame_path = os.path.join(output_dir, f'frame_{frame_idx:05d}.jpg')&#10;    cv2.imwrite(frame_path, frame)&#10;    frame_idx += 1&#10;cap.release()&#10;print(f&quot;共保存 {frame_idx} 帧到 {output_dir}&quot;)" />
+              <option name="updatedContent" value="#%%&#10;import cv2&#10;import os&#10;&#10;video_path = '../sample/video/sample.avi'&#10;output_dir = '../sample/fig'&#10;&#10;if not os.path.exists(output_dir):&#10;    os.makedirs(output_dir)&#10;&#10;cap = cv2.VideoCapture(video_path)&#10;frame_idx = 0&#10;while cap.isOpened():&#10;    ret, frame = cap.read()&#10;    if not ret:&#10;        break&#10;    frame_path = os.path.join(output_dir, f'frame_{frame_idx:05d}.jpg')&#10;    cv2.imwrite(frame_path, frame)&#10;    frame_idx += 1&#10;cap.release()&#10;print(f&quot;共保存 {frame_idx} 帧到 {output_dir}&quot;)" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

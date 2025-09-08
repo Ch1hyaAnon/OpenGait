@@ -1,0 +1,11 @@
+{
+    "PROBE_SET": [
+        "seq0"
+    ],
+    "TEST_SET": [
+        "0"
+    ],
+    "TRAIN_SET": [
+        "0"
+    ]
+}
